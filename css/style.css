@@ -26,11 +26,9 @@ h1{
 
 }
 
-p id="tagline-1" {
-text-align:
-;
-position: relative;
-top: -30%
-justify-content: center; 
+p #tagline-1 {
+
+text-align: center
+
 }
 
