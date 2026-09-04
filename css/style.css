@@ -8,21 +8,24 @@ html,body {
 width: 1000px;
 height: 1250px;
 margin: 0;
-background-color: #f4f0e6
+margin: 0;
+background-color: #f4f0e6;
 }
 
 img { 
 width: 975px;
 height: 650px;
 display: block;
-margin: 0 auto;
+margin: 0;
   border-radius: 20px;
+position:relative ;
+right: -20px;
 }
 
 .menu-button{
 position: absolute;
-top: 50px;
-right: -299px;
+top: 35px;
+right: -315px;
  color: #f4f0e6;
   padding: 6px 20px;
   border: 2px solid #f4f0e6;
@@ -31,26 +34,33 @@ right: -299px;
 
 }
 
+@font-face {
+    font-family: "Drephonic";
+    src: url("/fonts/drephonic.otf");
+}
+
 h1{
   position: relative;
-  top: -20px;
+  top: -35px;
   right: -20px;
-  
   font-size: 500%;
  text-align: left;
- font-family: "helvetica", sans-serif, allcaps;
-
+font-family: Drephonic;
+line-height: 60px;
+font-weight: 200;
 }
 
  .tagline-1 {
 font-size: 14px;
+font-family: Drephonic;
+font-weight: 600;
 position: absolute;
-top: 55px;
-right: 60px;
+top: 35px;
+right: 50px;
 }
 
 #breakline-1, #breakline-2 {
-
+  top: 20px ;
  height: 2px;
  background-color: #7f7d79;
  border: 0;
@@ -58,3 +68,18 @@ right: 60px;
 margin: 24px auto;
 }
 
+#breakline-1 {
+  position: relative;
+top: -20px;
+}
+
+.tagline-2{
+
+
+
+}
+
+h2{
+font-family: Drephonic;
+font-size: 50px
+}
