@@ -6,8 +6,7 @@ box-sizing: border-box;
 
 html,body {
 width: 1000px;
-height: 1250px;
-margin: 0;
+height: 1185px;
 margin: 0;
 background-color: #f4f0e6;
 }
@@ -74,12 +73,20 @@ top: -20px;
 }
 
 .tagline-2{
-
-
+ position: relative;
+ top: -20px;
+ right: -18px;
+font-family: Drephonic;
 
 }
 
 h2{
+  position: absolute;
+  bottom: -240px;
+  right: 140px;
 font-family: Drephonic;
-font-size: 50px
+font-size: 70px;
+font-weight: 200;
+line-height: 55px;
+
 }
