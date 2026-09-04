@@ -2,13 +2,13 @@
 margin: 0;
 padding:0;
 box-sizing: border-box;
-background-color: #f4f0e6 
 }
 
 html,body {
 width: 1000px;
 height: 1250px;
 margin: 0;
+background-color: #f4f0e6
 }
 
 img { 
@@ -17,6 +17,18 @@ height: 650px;
 display: block;
 margin: 0 auto;
   border-radius: 20px;
+}
+
+.menu-button{
+position: absolute;
+top: 50px;
+right: -299px;
+ color: #f4f0e6;
+  padding: 6px 20px;
+  border: 2px solid #f4f0e6;
+  border-radius: 999px;
+  background-color:#000000;
+
 }
 
 h1{
