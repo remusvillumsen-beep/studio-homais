@@ -32,16 +32,21 @@ right: -299px;
 }
 
 h1{
-    font-size: 200%;
+  position: relative;
+  top: -20px;
+  right: -20px;
+  
+  font-size: 500%;
  text-align: left;
  font-family: "helvetica", sans-serif, allcaps;
 
 }
 
-p #tagline-1 {
-
-text-align: center
-
+ .tagline-1 {
+font-size: 14px;
+position: absolute;
+top: 55px;
+right: 60px;
 }
 
 #breakline-1, #breakline-2 {
